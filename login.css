@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    animation: 1s anima;
+}
+@keyframes anima{
+    0%{opacity: 0%;}
+}
+form{
+    background-color: white;
+    box-shadow: 4px 4px 15px #bebebe, -4px -4px 15px #fff;
+    padding: 20px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 30%;
+    right: 35%;
+    gap: 20px;
+    align-items: center;
+}
+form input{
+    width: 25rem;
+    height: 5vh;
+    border-radius: 40px;
+    border: 1px solid #bebebe;
+}
+.checkbox input{
+    width: 1rem;
+}
+form h2{
+    padding: 2rem;
+}
+form input::placeholder{
+    padding: 0 15px;
+}
+form button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(90deg, #ffc421, #fff);
+}
