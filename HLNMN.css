@@ -27,7 +27,6 @@ header{
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     background: #0D0B12;
-    width: 95%;
 
 }
 .rouge{
@@ -45,7 +44,6 @@ header{
     object-fit: cover;
 }
 .jaune{
-    width:320px;
     padding: 2%;
     height: 500px;
     background-color: transparent;
@@ -54,7 +52,7 @@ header{
     grid-column-start: 2;
     grid-row-start: 1;
     position: absolute;
-    left: 156vh;
+    left: 64%;
     gap: 400px;
 
 }
